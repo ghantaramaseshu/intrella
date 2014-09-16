@@ -6,7 +6,6 @@ import java.util.List;
 import my.com.dagangnet.epayment.edi.pojo.FspgRes;
 
 import org.milyn.edi.unedifact.d93a.CUSRES.Cusres;
-import org.milyn.edi.unedifact.d93a.CUSRES.SegmentGroup1;
 import org.milyn.edi.unedifact.d93a.CUSRES.SegmentGroup2;
 import org.milyn.edi.unedifact.d93a.CUSRES.SegmentGroup3;
 import org.milyn.edi.unedifact.d93a.CUSRES.SegmentGroup5;
