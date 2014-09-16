@@ -251,6 +251,12 @@ public BGMBeginningOfMessage getBgm(BGM b){
 		return ediComLst;
 	}
 	
+	public List<COMCommunicationContact> getComLst(COM com) {
+        List<COM> moaLst = new ArrayList<COM>();
+        moaLst.add(com);
+        return getCom(moaLst);
+	}
+	
 	public CTAContactInformation getCta(CTA cta){
 		CTAContactInformation ediCta = new CTAContactInformation();
 		ediCta.setE3139ContactFunctionCode(cta.getCode());

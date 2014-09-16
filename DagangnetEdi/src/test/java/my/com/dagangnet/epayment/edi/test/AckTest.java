@@ -19,7 +19,7 @@ import my.com.dagangnet.epayment.edi.services.impl.AckEDIServiceImpl;
 
 public class AckTest {
 
-	public static void main(String... strings) {
+	public static void main(String[] strings) {
 		AckTest test = new AckTest();
 		AckEDIServiceImpl service = new AckEDIServiceImpl();
 		//service.doSuccessEdi(test.getFspgRes());
