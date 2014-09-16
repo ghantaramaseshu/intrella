@@ -261,7 +261,7 @@ public BGMBeginningOfMessage getBgm(BGM b){
 		CTAContactInformation ediCta = new CTAContactInformation();
 		ediCta.setE3139ContactFunctionCode(cta.getCode());
 		C056DepartmentOrEmployeeDetails empDtls = new C056DepartmentOrEmployeeDetails();
-		empDtls.setE3413DepartmentOrEmployeeNameCode(cta.getCode());
+		empDtls.setE3413DepartmentOrEmployeeNameCode(cta.getEmpIdentification());
 		empDtls.setE3412DepartmentOrEmployeeName(cta.getEmpName());
 		ediCta.setC056DepartmentOrEmployeeDetails(empDtls);
 		return ediCta;
@@ -302,6 +302,7 @@ public BGMBeginningOfMessage getBgm(BGM b){
 	
 	public List<FIIFinancialInstitutionInformation> getFiiLst(FII fii){
 		List<FII> fiiLst = new ArrayList<FII>();
+		fiiLst.add(fii);
 		return getFii(fiiLst);
 	}
 }

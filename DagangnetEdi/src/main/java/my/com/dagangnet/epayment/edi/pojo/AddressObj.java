@@ -6,6 +6,7 @@ public class AddressObj {
 	private String addressLane2;
 	private String addressLane3;
 	private String addressLane4;
+	private String addressLane5;
 
 	public String getAddressLane1() {
 		return addressLane1;
@@ -37,6 +38,14 @@ public class AddressObj {
 
 	public void setAddressLane4(String addressLane4) {
 		this.addressLane4 = addressLane4;
+	}
+
+	public String getAddressLane5() {
+		return addressLane5;
+	}
+
+	public void setAddressLane5(String addressLane5) {
+		this.addressLane5 = addressLane5;
 	}
 
 }
