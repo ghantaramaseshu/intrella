@@ -4,6 +4,7 @@ public class FCA {
 
 	private String code;
 	private String branchNumber;
+	private String codeLstQualifier;
 	private String agencyCode;
 	private String acctHolderNumber;
 	private String currencyCode;
@@ -48,4 +49,13 @@ public class FCA {
 		this.currencyCode = currencyCode;
 	}
 
+	public String getCodeLstQualifier() {
+		return codeLstQualifier;
+	}
+
+	public void setCodeLstQualifier(String codeLstQualifier) {
+		this.codeLstQualifier = codeLstQualifier;
+	}
+
+	
 }

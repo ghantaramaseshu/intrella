@@ -5,12 +5,16 @@ public class FII {
 	private String partyQualifier;
 	private String acctHolderNumber;
 	private String acctHolderName;
+	private String acctHolderName2;
 	private String currencyCode;
-	private String branchNumber;
+	private String institutionIdentification;
 	private String codeLstQualifier;
 	private String agnecyCode;
-	private String agencyName;
-	private String agencyPlace;
+	private String branchNumber;
+	private String codeLstQualifier2;
+	private String agnecyCode2;
+	private String institutionName;
+	private String institutionPlace;
 
 	public String getPartyQualifier() {
 		return partyQualifier;
@@ -36,6 +40,14 @@ public class FII {
 		this.acctHolderName = acctHolderName;
 	}
 
+	public String getAcctHolderName2() {
+		return acctHolderName2;
+	}
+
+	public void setAcctHolderName2(String acctHolderName2) {
+		this.acctHolderName2 = acctHolderName2;
+	}
+
 	public String getCurrencyCode() {
 		return currencyCode;
 	}
@@ -44,12 +56,12 @@ public class FII {
 		this.currencyCode = currencyCode;
 	}
 
-	public String getBranchNumber() {
-		return branchNumber;
+	public String getInstitutionIdentification() {
+		return institutionIdentification;
 	}
 
-	public void setBranchNumber(String branchNumber) {
-		this.branchNumber = branchNumber;
+	public void setInstitutionIdentification(String institutionIdentification) {
+		this.institutionIdentification = institutionIdentification;
 	}
 
 	public String getCodeLstQualifier() {
@@ -68,20 +80,44 @@ public class FII {
 		this.agnecyCode = agnecyCode;
 	}
 
-	public String getAgencyName() {
-		return agencyName;
+	public String getBranchNumber() {
+		return branchNumber;
 	}
 
-	public void setAgencyName(String agencyName) {
-		this.agencyName = agencyName;
+	public void setBranchNumber(String branchNumber) {
+		this.branchNumber = branchNumber;
 	}
 
-	public String getAgencyPlace() {
-		return agencyPlace;
+	public String getCodeLstQualifier2() {
+		return codeLstQualifier2;
 	}
 
-	public void setAgencyPlace(String agencyPlace) {
-		this.agencyPlace = agencyPlace;
+	public void setCodeLstQualifier2(String codeLstQualifier2) {
+		this.codeLstQualifier2 = codeLstQualifier2;
+	}
+
+	public String getAgnecyCode2() {
+		return agnecyCode2;
+	}
+
+	public void setAgnecyCode2(String agnecyCode2) {
+		this.agnecyCode2 = agnecyCode2;
+	}
+
+	public String getInstitutionName() {
+		return institutionName;
+	}
+
+	public void setInstitutionName(String institutionName) {
+		this.institutionName = institutionName;
+	}
+
+	public String getInstitutionPlace() {
+		return institutionPlace;
+	}
+
+	public void setInstitutionPlace(String institutionPlace) {
+		this.institutionPlace = institutionPlace;
 	}
 
 }

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import my.com.dagangnet.epayment.edi.helper.CusResHelper;
-import my.com.dagangnet.epayment.edi.helper.EDIBodyHelper;
+import my.com.dagangnet.epayment.edi.helper.AckEDIBodyHelper;
 import my.com.dagangnet.epayment.edi.pojo.FspgRes;
 import my.com.dagangnet.epayment.edi.services.AckEDIService;
 
@@ -21,7 +21,7 @@ import org.milyn.smooks.edi.unedifact.model.r41.UNZ41;
 
 public class AckEDIServiceImpl implements AckEDIService {
 
-	private EDIBodyHelper ediHelper = new EDIBodyHelper();
+	private AckEDIBodyHelper ediHelper = new AckEDIBodyHelper();
 	private CusResHelper cusResHelper = new CusResHelper();
 
 	public String doSuccessEdi(final FspgRes fspgRes) {

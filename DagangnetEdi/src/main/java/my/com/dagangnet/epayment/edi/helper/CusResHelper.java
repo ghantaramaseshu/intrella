@@ -13,7 +13,7 @@ import org.milyn.edi.unedifact.d93a.CUSRES.SegmentGroup7;
 
 public class CusResHelper {
 
-	private EDIBodyHelper ediHelper = new EDIBodyHelper();
+	private AckEDIBodyHelper ediHelper = new AckEDIBodyHelper();
 
 	public Cusres getSuccessCusres(FspgRes fspgRes) {
 
